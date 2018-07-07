@@ -1,0 +1,2 @@
+This Repository is for the University of Pittsburgh Mobile App Challenge competition where all necessary code for the app developed by the user should be stored.
+Please do not repupose this repo.
