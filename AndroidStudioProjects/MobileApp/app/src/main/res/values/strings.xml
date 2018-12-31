@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MobileApp</string>
+    <string name="title_activity_buy_order">BuyOrder</string>
+</resources>
