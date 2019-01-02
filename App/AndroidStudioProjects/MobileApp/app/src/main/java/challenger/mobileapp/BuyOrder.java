@@ -16,6 +16,8 @@ public class BuyOrder extends AppCompatActivity {
         ActionBar bar = getSupportActionBar();
         bar.setTitle("Buy Order Activity");
         bar.setDisplayHomeAsUpEnabled(true);
+        bar.setHomeAsUpIndicator(R.drawable.back_icon);
+
     }
 
 }

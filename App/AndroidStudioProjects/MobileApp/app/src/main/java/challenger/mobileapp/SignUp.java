@@ -34,6 +34,7 @@ public class SignUp extends AppCompatActivity {
         ActionBar bar = getSupportActionBar();
         bar.setTitle("SignUp Activity");
         bar.setDisplayHomeAsUpEnabled(true);
+        bar.setHomeAsUpIndicator(R.drawable.back_icon);
         passref = findViewById(R.id.signuppassword);
         emailref = findViewById(R.id.signupemail);
         confirmref = findViewById(R.id.confirm);

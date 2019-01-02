@@ -35,6 +35,7 @@ public class Login extends AppCompatActivity {
         ActionBar bar = getSupportActionBar();
         bar.setTitle("Login Activity");
         bar.setDisplayHomeAsUpEnabled(true);
+        bar.setHomeAsUpIndicator(R.drawable.back_icon);
     }
 
     public void SignInUser() {

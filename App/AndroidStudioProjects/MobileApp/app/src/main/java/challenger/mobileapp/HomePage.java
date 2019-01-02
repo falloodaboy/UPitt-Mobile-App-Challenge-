@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -15,7 +16,7 @@ public class HomePage extends AppCompatActivity {
             private Button logger;
             private Button signer;
             private Button faq;
-
+            private final String TAG = "Challenger";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class HomePage extends AppCompatActivity {
         setSupportActionBar(tool);
         ActionBar bar = getSupportActionBar();
         bar.setTitle("App Name");
+        Log.d(TAG, "onCreate: Created");
 
     }
 
@@ -44,6 +46,7 @@ public class HomePage extends AppCompatActivity {
                 else if(view.getId() == R.id.login){
                     Intent inter = new Intent(HomePage.this, Login.class);
                     startActivity(inter);
+
                 }
             }
         };
