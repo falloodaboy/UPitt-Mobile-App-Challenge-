@@ -30,7 +30,7 @@ public class HomePage extends AppCompatActivity {
         ActionBar bar = getSupportActionBar();
         bar.setTitle("App Name");
         Log.d(TAG, "onCreate: Created");
-
+        model.method();
     }
 
     @Override

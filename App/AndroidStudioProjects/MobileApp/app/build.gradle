@@ -34,5 +34,6 @@ dependencies {
     implementation "android.arch.lifecycle:extensions:$lifecycle_version"
 
 
+    implementation 'com.google.firebase:firebase-database:16.0.5'
 }
 apply plugin: 'com.google.gms.google-services'

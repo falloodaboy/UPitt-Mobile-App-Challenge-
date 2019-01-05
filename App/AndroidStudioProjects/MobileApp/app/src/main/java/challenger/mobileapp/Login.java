@@ -16,7 +16,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-public class Login extends AppCompatActivity {
+public class Login extends AppCompatActivity implements Runnable {
         private TextView email;
         private TextView password;
         private Button but;
@@ -65,7 +65,8 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(view.getId() == but.getId()){
-                    SignInUser();
+                   // SignInUser();
+                    start();
                 }
             }
         };
@@ -76,5 +77,13 @@ public class Login extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         Auth.signOut();
+    }
+    @Override
+    public void run(){
+        SignInUser();
+    }
+    public void start(){
+        Thread t = new Thread(this);
+        t.start();
     }
 }
