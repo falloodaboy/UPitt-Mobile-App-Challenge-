@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BulkBuyerV2</string>
+    <string name="BuyOrderTitle">Buy Order</string>
+    <string name="ProductNameHint">Product Name</string>
+    <string name="ProductCityHint">City</string>
+    <string name="ProductPickupHint">Pickup Location</string>
+    <string name="ProductNumBuyersHint">Number Of Buyers</string>
+    <string name="ProductPricePerHint">Price Per Buyer</string>
+    <string name="ProductPurchDate">Purchase Date</string>
+    <string name="ProductPurchTime">Purchase Time</string>
+</resources>
