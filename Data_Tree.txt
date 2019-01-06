@@ -1,0 +1,13 @@
+Root:
++ Buy Orders:
+	-Specific Buy Order Objects
++ OrderList:
+	-Abridged Buy Order Metadata
+		- Location, Items, Title
++Users:
+	-User Objects:
+		-email, 
+		-password,
+		-key to abridged buy orders,
+		 -history of purchases
+		 -Location of PickUp
