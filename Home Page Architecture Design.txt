@@ -1,0 +1,11 @@
+basic HomePage:
+Logo Background
+TextField for Name 
+Sign In Button Sign Up Button
+
+{Sign In --> Profile Page}{Sign Up --> Information Page}
+FAQ button
+{FAQ --> Tutorial Page}
+
+
+Questions/Problems:
