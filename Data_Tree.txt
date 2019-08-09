@@ -1,13 +1,95 @@
 Root:
 + Buy Orders:
-	-Specific Buy Order Objects
+	-Specific BuyOrder Objects
 + OrderList:
 	-Abridged Buy Order Metadata
 		- Location, Items, Title
-+Users:
++ Users:
 	-User Objects:
 		-email, 
 		-password,
 		-key to abridged buy orders,
 		 -history of purchases
 		 -Location of PickUp
+
+"buylite" : 
+{
+	"users":
+	{
+		"124324Ui312KKo":
+			{
+				"Username": "Maise Hughes",
+				"Password": "**********",
+				"purchases": "BuyOrder1","BuyOrder2"
+					
+
+			}
+			
+	},
+	
+	"BuyOrders" :
+	{
+		"BuyOrder1" :
+		{
+			"Host" : "Sam Jung",
+			"Payload":
+			 	{
+			 		"Maise Hughes" :
+			 			{
+			 				"Ketchup(8oz)": 2,
+			 				"Frozen Pizza": 1,
+			 				"Hot Cheetos" : 1
+			 			},
+			 		"Audrey Wilhelm":
+			 			{
+			 				"Peanut Butter": 1,
+			 				"Whole Wheat Bread": 1
+			 			},
+			 		"Sophia Jenning":
+			 			{
+			 				"White Hamburger Buns": 2,
+			 				"Pasta sauce": 1,
+			 				"Colgate Toothpaste": 1
+			 			}
+				},
+			"Location" :
+				{
+					"latitude" : 3.22341,
+					"longitude": 1.44423
+				},
+
+
+		},
+	"BuyOrder2" : 
+		{
+			"Host" : "James Marvin",
+			"Payload":
+			 	{
+			 		"Kaiser Martin" :
+			 			{
+			 				"Ketchup(8oz)": 2,
+			 				"Frozen Pizza": 1,
+			 				"Hot Cheetos" : 1
+			 			},
+			 		"Maise Hughes":
+			 			{
+			 				"Peanut Butter": 1,
+			 				"Whole Wheat Bread": 1
+			 			},
+			 		"Seth McFarlane":
+			 			{
+			 				"White Hamburger Buns": 2,
+			 				"Pasta sauce": 1,
+			 				"Colgate Toothpaste": 1
+			 			}
+				},
+			"Location" :
+				{
+					"latitude" : 2.99489,
+					"longitude": 0.00433
+				}
+		}	
+	}
+
+
+}
